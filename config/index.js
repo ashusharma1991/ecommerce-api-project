@@ -4,6 +4,9 @@ dotenv.config();
 
 export const {
 
-    APP_PORT
+    APP_PORT,
+    DEBUG_MODE,
+    DB_URL,
+    JWT_SECERT
     
 } = process.env;
